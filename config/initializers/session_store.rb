@@ -1,1 +1,1 @@
-Rails.application.config.session_store :cookie_store, key: "_nytimes_lite", domain: "https://nytimes-lite.herokuapp.com"
+Rails.application.config.session_store :cookie_store, key: "_nytimes_lite", domain: "https://nytimes-lite.herokuapp.com/"
