@@ -1,7 +1,7 @@
 class UserArticlesController < ApplicationController
 
     def index
-    
+
         user_article = UserArticle.all
 
         render json: user_article, only: [:id, :url, :abstract, :byline, :title, :multimedia, :user_id]
@@ -17,11 +17,10 @@ class UserArticlesController < ApplicationController
     end
 
     
-        def destroy
-            @article = UserArticle.find(params[:id])
-            
-            @article.destroy
-          end
-
+    def destroy
+        @article = UserArticle.find(params[:id])
+        
+        @article.destroy
+    end
 
 end

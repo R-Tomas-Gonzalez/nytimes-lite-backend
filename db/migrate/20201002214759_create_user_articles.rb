@@ -6,7 +6,7 @@ class CreateUserArticles < ActiveRecord::Migration[6.0]
       t.string :byline
       t.string :title
       t.string :multimedia
-      t.references :user_id
+      t.references :user, null: false, foreign_key: true
 
       t.timestamps
     end

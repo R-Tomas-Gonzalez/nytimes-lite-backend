@@ -57,3 +57,7 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 
 gem "rack-cors", :require => 'rack/cors'
 
+gem 'rails_12factor'
+
+gem 'foreman'
+
