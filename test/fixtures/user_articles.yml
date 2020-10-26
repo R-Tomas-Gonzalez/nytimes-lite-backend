@@ -5,15 +5,13 @@ one:
   abstract: MyString
   byline: MyString
   title: MyString
-  url: MyString
   multimedia: MyString
-  user: 
+  User: one
 
 two:
   url: MyString
   abstract: MyString
   byline: MyString
   title: MyString
-  url: MyString
   multimedia: MyString
-  user: 
+  User: two
